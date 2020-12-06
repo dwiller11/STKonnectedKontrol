@@ -2,6 +2,10 @@
  *  Konnected Alarm Controller
  *  Author: Dan Wheeler
  * 	Date Created: 11/30/2020
+ *	UPDATE 12/6/2020: Ran into some bugs with double triggering that I couldn't figure out.
+ *		I'm no longer using this and am instead using 3 virtual switches and 3 automations with conditions on
+ *		the state of the alarm status to handle arming/disarming and preventing accidential re-arming when the panel is already disarmed
+ *		I'll leave this here in case anyone wants to use it but I think it may have overcomplicated the problem
  
  *  Description: 
  *	To be used with the Konnected alarm interface kits. 
